@@ -1,2 +1,3 @@
-此项目不再维护。
-请转到商业版：https://www.centos.bz/2014/06/new-http-guard-release/
+在centos-bz/HttpGuard基础上根据需要进行功能调整和扩充，包括以下几个部分：
+1.请求速率的限制方式由原来的单一源IP统计，改为IP+User_Agent+URL+Referer组合统计，以减少实际应用中的误报率。——未完成。
+2.修改黑白名单从单一的源IP扩展为多条件组合方式。——未完成。
